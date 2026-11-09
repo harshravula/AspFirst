@@ -9,7 +9,7 @@ This repository contains my ASP.NET learning and practice projects.
 
 ## Technologies
 - C#
-- ASP.NET
+- ASP.NET MVC
 - .NET Framework
 - HTML, CSS, JavaScript
 - Bootstrap
