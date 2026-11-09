@@ -18,5 +18,16 @@ namespace Aspfirst
         {
             TextBox3.Text = (int.Parse(TextBox1.Text) + int.Parse(TextBox2.Text)).ToString();
         }
+        protected void btnSum_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(t1.Value, out int a) && int.TryParse(t2.Value, out int b))
+            {
+                t3.Value = (a + b).ToString();
+            }
+            else
+            {
+                t3.Value = "";
+            }
+        }
     }
 }

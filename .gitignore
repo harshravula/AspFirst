@@ -1,6 +1,28 @@
-bin/
-obj/
+# Visual Studio
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+
+# NuGet packages
 packages/
+
+# Test results
+TestResults/
+
+# Temporary and log files
+*.tmp
+*.log
+*.cache
+
+# IDE settings
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

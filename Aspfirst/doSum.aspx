@@ -8,10 +8,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <input type ="text" name="t1" id="t1" /><br />
-        <input type ="text" name="t2" id="t2" /><br />
-        <input type ="text" name="t3" id="t3" /><br />
-        <input type ="submit" />
+        <input type ="text" name="t1" id="t1" runat="server"/><br />
+        <input type ="text" name="t2" id="t2" runat="server"/><br />
+        <input type ="text" name="t3" id="t3" runat="server"/><br />
+        <input type ="submit" name="btnSum" id="btnSum" value="Sum" runat="server" onserverclick="btnSum_Click" />
 
 
 
